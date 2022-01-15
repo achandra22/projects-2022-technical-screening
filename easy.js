@@ -110,3 +110,10 @@ const answer6 = [-1, 5, -2, 0, -3, 3, -4]
 for (let i = 0; i < array6.length; i++) {
     assert(array6[i] === answer6[i])
 }
+
+let array7 = [0,-1,0,-1,0,-1,0]
+array7 = altNumbers(array7)
+const answer7 = [0,-1,0,-1,0,-1,0]
+for (let i = 0; i < array7.length; i++) {
+    assert(array7[i] === answer7[i])
+}
